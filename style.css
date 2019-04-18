@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+nav{   
+    height: 40px;
+    transform: translateX(0vw);
+    transition: 3s;
+}
+
+aside {
+    width: 45px;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+div{
+    background-color: white;
+    width: 80%;
+    height: 6px;
+}
+
+.moverCentro{
+    transform: translateX(50vw);
+    transition: 3s;
+}
